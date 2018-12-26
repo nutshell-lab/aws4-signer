@@ -25,9 +25,9 @@ export const sign = async (method, url, headers, body) => {
       region: process.env.AWS_REGION
     },
     {
-      accessKeyId: AWS.config.credentials.accessKeyId,
-      secretAccessKey: AWS.config.credentials.secretAccessKey,
-      sessionToken: AWS.config.credentials.sessionToken
+      accessKeyId: process.env.AWS_ACCESS_KEY_ID,
+      secretAccessKey: process.env.AWS_SECRET_ACCESS_KEY,
+      sessionToken: process.env.AWS_SESSION_TOKEN
     }
   )
 }
