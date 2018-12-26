@@ -1,6 +1,6 @@
 {
   "name": "@nutshelllab/aws4-signer",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "An aws v4 signature wrapper",
   "main": "lib/aws4-signer.js",
   "scripts": {
