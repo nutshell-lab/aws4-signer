@@ -35,7 +35,7 @@ import sign from '@nutshelllab/node-aws-signer'
 
 Type: `string`
 
-HTTP method (GET, POST, PUT, PATCH, DELETE, ...).
+HTTP method (`GET`, `POST`, `PUT`, `PATCH`, `DELETE`, ...).
 
 ##### url
 
