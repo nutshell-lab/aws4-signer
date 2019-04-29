@@ -1,4 +1,4 @@
-# AWS4-Signer
+# node-aws-signer
 
 > Just a nodejs wrapper over AWS4 signer
 
@@ -6,7 +6,7 @@
 ## Install
 
 ```
-$ npm install @nutshelllab/node-aws-signer
+$ yarn add @nutshelllab/node-aws-signer
 ```
 
 
